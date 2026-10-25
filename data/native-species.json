@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "description": "Native Everglades species that are not federally listed as endangered or threatened, including the recovered American alligator. Used by the Identify page and the AI Guide.",
+    "status_authority": "U.S. Endangered Species Act"
+  },
+  "species": [
+    {
+      "id": "american-alligator",
+      "common_name": "American Alligator",
+      "scientific_name": "Alligator mississippiensis",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": true,
+      "status": "Recovered, still protected",
+      "summary": "A large, dark reptile of freshwater marshes and canals that digs 'gator holes' other wildlife depend on in the dry season.",
+      "description": "The American alligator lives in freshwater across the Southeast, and the Everglades is one of its strongholds. Alligators were once close to disappearing from overhunting, but protection helped them recover. They are still protected by federal and Florida law, partly because they look so much like the rarer American crocodile. In the dry season, alligators dig and clear holes in the marsh that hold water, which gives fish, turtles, and wading birds a place to survive.",
+      "habitat": "Freshwater marshes, swamps, lakes, rivers, and canals.",
+      "threats": [
+        "Loss and draining of wetlands",
+        "Water-level changes that can flood nests or dry out the pools they depend on",
+        "People feeding alligators, which makes them lose their natural wariness",
+        "Vehicle collisions on roads near water"
+      ],
+      "identification_tips": [
+        "Broad, rounded, U-shaped snout (crocodiles have a narrow, V-shaped one)",
+        "Dark gray to black body, often with pale bands on young animals",
+        "Only the upper teeth show when the mouth is closed",
+        "Large adults commonly reach 8 to 12 feet or more"
+      ],
+      "how_to_help": [
+        "Never feed alligators; it is illegal in Florida and makes them dangerous",
+        "Keep a safe distance, and keep pets and children away from the water's edge",
+        "Report a nuisance alligator to FWC's alligator hotline at 866-FWC-GATOR (866-392-4286)",
+        "Support protection and restoration of Everglades wetlands"
+      ],
+      "keywords": [
+        "alligator",
+        "gator",
+        "gators",
+        "reptile",
+        "crocodilian",
+        "gator hole"
+      ],
+      "federally_listed": false
+    },
+    {
+      "id": "florida-softshell-turtle",
+      "common_name": "Florida Softshell Turtle",
+      "scientific_name": "Apalone ferox",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": true,
+      "status": "Not federally listed",
+      "federally_listed": false,
+      "summary": "A flat, leathery-shelled turtle with a long snout that often hides in mud and waits for prey.",
+      "description": "The Florida softshell is a large freshwater turtle. Its shell is covered in soft, leathery skin instead of hard plates, which helps it move quickly through water. It spends most of its time in the water, often buried in mud or sand with only its long neck and snout showing, and it eats fish, frogs, insects, and other small animals.",
+      "habitat": "Freshwater lakes, canals, ponds, and slow rivers and marshes with soft, muddy bottoms.",
+      "threats": [
+        "Cars hitting females as they cross roads to nest",
+        "Loss of wetlands and nesting areas",
+        "Fishing hooks and fishing line",
+        "Predators raiding nests and eggs"
+      ],
+      "identification_tips": [
+        "Flat, round, olive-to-brown shell with a soft, leathery edge and no hard plates",
+        "Long neck and a long, tube-shaped snout",
+        "Webbed feet with three claws on each foot"
+      ],
+      "how_to_help": [
+        "Do not pick up or take a softshell; they can bite and reach far with their long necks",
+        "Drive slowly near canals and wetlands, especially in nesting season",
+        "Pick up fishing line and hooks and throw them away properly",
+        "Keep canal banks and nesting areas natural"
+      ],
+      "keywords": [
+        "softshell",
+        "soft shell",
+        "turtle",
+        "apalone",
+        "reptile",
+        "freshwater turtle"
+      ]
+    },
+    {
+      "id": "great-blue-heron",
+      "common_name": "Great Blue Heron",
+      "scientific_name": "Ardea herodias",
+      "kingdom": "animal",
+      "group": "Bird",
+      "native": true,
+      "status": "Not federally listed",
+      "federally_listed": false,
+      "summary": "A tall wading bird that stands still in shallow water and strikes fish with its long bill.",
+      "description": "The great blue heron is a common wading bird across Florida and the Everglades. It stands motionless or walks slowly through shallow water, then spears fish, frogs, and other small animals. Herons nest in colonies in trees and shrubs, and like most native birds they are protected by the Migratory Bird Treaty Act. South Florida is also home to an all-white form often called the great white heron.",
+      "habitat": "Freshwater and saltwater shallows, marshes, mangroves, canals, ponds, and shorelines.",
+      "threats": [
+        "Loss of wetlands and shallow feeding areas",
+        "Disturbance of nesting colonies",
+        "Tangling in fishing line and hooks",
+        "Pollution that harms the fish they eat"
+      ],
+      "identification_tips": [
+        "Very tall wader, about 4 feet high, with a wingspan around 6 feet",
+        "Blue-gray body with a white face and a black stripe over the eye",
+        "Long yellowish bill and long legs",
+        "Flies with its neck folded back in an S shape",
+        "A white form lives in south Florida"
+      ],
+      "how_to_help": [
+        "Keep your distance from nests and feeding birds",
+        "Throw away fishing line and hooks so birds cannot get tangled",
+        "Do not feed herons or leave fish scraps at docks",
+        "Protect wetlands and keep canals clean"
+      ],
+      "keywords": [
+        "heron",
+        "great blue",
+        "blue heron",
+        "great white heron",
+        "wading bird",
+        "wader",
+        "bird"
+      ]
+    }
+  ]
+}
