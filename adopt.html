@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adopt a Species — GladeGuide</title>
+  <meta name="description" content="Adopt an endangered Everglades species and pledge one action to help it recover." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="adopt">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a class="nav-logo" href="index.html">
+        <span class="logo-text">GladeGuide</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="identify.html" class="nav-link">Identify</a>
+        <a href="guide.html" class="nav-link">AI Guide</a>
+        <a href="adopt.html" class="nav-link" aria-current="page">Adopt a Species</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Adopt a species</h1>
+        <p>Choose an endangered Everglades species and pledge one action that helps it. Adoptions are free and symbolic, and they are saved only in this browser.</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="page-section" aria-labelledby="adopted-heading">
+        <h2 id="adopted-heading" tabindex="-1">Your adopted species</h2>
+        <p class="muted" id="adopted-empty">You haven't adopted a species yet. Pick one below.</p>
+        <ul class="adoption-list" id="adopted-list"></ul>
+      </section>
+
+      <section class="page-section" aria-labelledby="terms-heading">
+        <h2 id="terms-heading">What do the labels mean?</h2>
+        <div class="prose prose--wide">
+          <p>
+            These species are protected under the U.S. Endangered Species Act, which sorts them into two groups. It is
+            illegal to harm, harass, or capture them without a permit.
+          </p>
+          <dl class="glossary">
+            <dt>Endangered</dt>
+            <dd>The species is in danger of extinction throughout all or a significant part of its range.</dd>
+            <dt>Threatened</dt>
+            <dd>The species is likely to become endangered in the foreseeable future if nothing changes.</dd>
+          </dl>
+          <p>
+            Some species have moved from endangered to threatened as protections and habitat work helped their numbers
+            recover. Threatened does not mean safe: these animals still depend on the wetlands and clean water of South Florida.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-section" aria-labelledby="choose-heading">
+        <h2 id="choose-heading">Choose a species</h2>
+        <div class="results-head">
+          <div class="field">
+            <label for="status-filter">Conservation status</label>
+            <select id="status-filter" name="status">
+              <option value="all">All statuses</option>
+            </select>
+          </div>
+        </div>
+        <p class="status" id="adopt-count" role="status">Loading species…</p>
+        <ul class="card-grid" id="adopt-grid"></ul>
+      </section>
+
+      <p class="visually-hidden" id="adopt-status" role="status"></p>
+    </div>
+  </main>
+
+  <dialog id="pledge-dialog" aria-labelledby="pledge-title">
+    <form id="pledge-form" method="dialog" class="dialog-body" novalidate>
+      <h2 id="pledge-title">Adopt this species</h2>
+      <div class="field">
+        <label for="pledge-name">Your name</label>
+        <input type="text" id="pledge-name" name="name" autocomplete="name" maxlength="60" required />
+      </div>
+      <div class="field">
+        <label for="pledge-action">My pledge</label>
+        <select id="pledge-action" name="pledge" required></select>
+        <p class="help">Pick one thing you will do to help.</p>
+      </div>
+      <div class="dialog-actions">
+        <button type="button" class="btn btn-quiet" id="pledge-cancel">Cancel</button>
+        <button type="submit" class="btn btn-primary">Save adoption</button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer class="footer">
+    <div class="footer-logo">GladeGuide</div>
+    <p>Built for the 2026 Congressional App Challenge · South Florida's Everglades</p>
+    <p class="footer-note">Made with purpose by a Weston student</p>
+  </footer>
+
+  <noscript>
+    <p class="notice notice--warn noscript-note">GladeGuide needs JavaScript to load species data.</p>
+  </noscript>
+
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/adopt.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Guide — GladeGuide</title>
+  <meta name="description" content="Chat with the GladeGuide nature guide about Everglades wildlife, invasive species, and conservation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="guide">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a class="nav-logo" href="index.html">
+        <span class="logo-text">GladeGuide</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="identify.html" class="nav-link">Identify</a>
+        <a href="guide.html" class="nav-link" aria-current="page">AI Guide</a>
+        <a href="adopt.html" class="nav-link">Adopt a Species</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Ask the AI guide</h1>
+        <p>Ask about Everglades wildlife, invasive species, and what you can do to help.</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="page-section" aria-labelledby="chat-heading">
+        <h2 class="visually-hidden" id="chat-heading">Chat</h2>
+        <div class="chat">
+          <p class="notice notice--warn" id="guide-mode" hidden>
+            The full AI guide is unavailable right now. I can still look up species in our database.
+          </p>
+
+          <div>
+            <p class="fieldset-legend" id="chips-label">Try asking</p>
+            <ul class="chips" id="prompt-chips" aria-labelledby="chips-label"></ul>
+          </div>
+
+          <div class="chat-log" id="chat-log" role="log" aria-live="polite" aria-relevant="additions" aria-label="Conversation with the GladeGuide nature guide" tabindex="0"></div>
+
+          <form class="chat-form" id="chat-form">
+            <div class="field">
+              <label for="chat-input">Your question</label>
+              <textarea id="chat-input" name="question" rows="2" maxlength="800" aria-describedby="chat-help" required></textarea>
+              <p class="help" id="chat-help">Press Enter to send, or Shift+Enter for a new line.</p>
+            </div>
+            <button type="submit" class="btn btn-primary" id="chat-send">Send</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logo">GladeGuide</div>
+    <p>Built for the 2026 Congressional App Challenge · South Florida's Everglades</p>
+    <p class="footer-note">Made with purpose by a Weston student</p>
+  </footer>
+
+  <noscript>
+    <p class="notice notice--warn noscript-note">GladeGuide needs JavaScript for the chat guide.</p>
+  </noscript>
+
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/guide.js"></script>
+</body>
+</html>

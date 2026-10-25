@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GladeGuide — Discover the Everglades</title>
+  <meta name="description" content="Identify Everglades plants and animals and learn which are invasive. Chat with an AI nature guide and adopt an endangered species." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ── NAVBAR ─────────────────────────────────────────────── -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a class="nav-logo" href="index.html">
+        <span class="logo-text">GladeGuide</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="nav-link" aria-current="page">Home</a>
+        <a href="identify.html" class="nav-link">Identify</a>
+        <a href="guide.html" class="nav-link">AI Guide</a>
+        <a href="adopt.html" class="nav-link">Adopt a Species</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ── HERO ───────────────────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">Powered by AI · Built for South Florida</div>
+          <h1 class="hero-title" id="hero-title">Explore &amp; Protect<br />the Everglades</h1>
+          <p class="hero-sub">
+            Snap a photo of any plant or animal and instantly learn if it belongs here —
+            or if it's an invasive threat. Ask our AI nature guide anything.
+          </p>
+          <div class="hero-buttons">
+            <a href="identify.html" class="btn btn-primary">Identify a Species</a>
+            <a href="guide.html" class="btn btn-secondary">Ask the AI Guide</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <h2 class="visually-hidden">Featured species</h2>
+          <!-- Filled by js/main.js from data/endangered-species.json -->
+          <div class="hero-card" data-spotlight aria-live="polite">
+            <p class="hero-card-loading">Loading today's featured species…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FEATURES ───────────────────────────────────────────── -->
+    <section class="features" aria-labelledby="features-title">
+      <h2 class="section-title" id="features-title">What you can do</h2>
+      <div class="feature-grid">
+
+        <a href="identify.html" class="feature-card">
+          <h3>Identify Species</h3>
+          <p>Upload a photo and our AI instantly identifies plants and animals — and tells you if they're native or invasive.</p>
+          <span class="feature-link">Try it →</span>
+        </a>
+
+        <a href="guide.html" class="feature-card">
+          <h3>Ask the AI Guide</h3>
+          <p>Chat with an AI nature guide that knows everything about the Everglades ecosystem, threats, and conservation.</p>
+          <span class="feature-link">Chat now →</span>
+        </a>
+
+        <a href="adopt.html" class="feature-card">
+          <h3>Adopt a Species</h3>
+          <p>Track the recovery of endangered Everglades animals like the Florida Panther, Manatee, and Wood Stork.</p>
+          <span class="feature-link">Adopt →</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ── LEARN: THE EVERGLADES ──────────────────────────────── -->
+    <section class="learn" aria-labelledby="everglades-title">
+      <div class="learn-inner">
+        <h2 id="everglades-title">What is the Everglades?</h2>
+        <div class="learn-cols">
+          <div class="prose">
+            <p>
+              The Everglades is a vast, shallow wetland in South Florida, often called the "River of Grass."
+              Fed by rain and by water that once spilled south from Lake Okeechobee, it moves so slowly that it can look
+              perfectly still. That gentle flow supports an unusual mix of habitats and wildlife found nowhere else in the country.
+            </p>
+            <p>
+              It matters far beyond the park boundary. Water soaking down through the Everglades helps refill the Biscayne
+              Aquifer, a main source of drinking water for millions of people in South Florida, and its marshes hold and slow
+              floodwater that would otherwise rush toward the coast.
+            </p>
+            <p>
+              Roughly half of the original Everglades has been lost to drainage for farms and cities, and the water that
+              remains has been redirected by canals and levees. The Comprehensive Everglades Restoration Plan, authorized
+              by Congress in 2000, aims to bring back a more natural flow. Neighborhoods like Weston sit right at the
+              edge of the Everglades, so what happens in local yards and canals reaches the wetlands.
+            </p>
+            <p>
+              The Everglades has two seasons instead of four. In the wet season, roughly May through October, afternoon
+              storms raise the water. In the dry season, roughly November through April, the water recedes and fish
+              gather in shrinking pools, which is when wading birds feed most easily.
+            </p>
+          </div>
+          <div class="habitats">
+            <h3>Six habitats, one system</h3>
+            <dl>
+              <dt>Sawgrass marsh</dt>
+              <dd>Open stretches of sawgrass standing in shallow water for much of the year. This is the "grass" in River of Grass.</dd>
+              <dt>Tree islands</dt>
+              <dd>Small raised patches of trees and shrubs, called hammocks, that shelter wildlife when the water is high.</dd>
+              <dt>Cypress swamps</dt>
+              <dd>Stands of cypress rooted in water, used by wading birds for nesting.</dd>
+              <dt>Pine rocklands</dt>
+              <dd>Pine forests on limestone that depend on regular fire and shelter many rare plants.</dd>
+              <dt>Mangrove coast</dt>
+              <dd>Salt-tolerant trees where fresh and salt water mix, a nursery for young fish and a home for crocodiles.</dd>
+              <dt>Florida Bay</dt>
+              <dd>A shallow bay of seagrass at the southern edge, where manatees and many fish feed.</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── LEARN: INVASIVE SPECIES ────────────────────────────── -->
+    <section class="learn learn--alt" aria-labelledby="invasive-title">
+      <div class="learn-inner">
+        <h2 id="invasive-title">Why invasive species are a problem</h2>
+        <div class="prose prose--wide">
+          <p>
+            A species is called invasive when it is not native to a place, spreads on its own, and harms the
+            environment, the economy, or people's health. Most non-native species cause little trouble. The invasive
+            ones are the exception, and they can be devastating.
+          </p>
+          <p>
+            South Florida is especially open to them. Warm weather all year, busy ports and airports, and large trades in
+            exotic pets and garden plants bring new species in, and mild winters mean many survive. In the Everglades,
+            many invaders began as pets that escaped or were released, or as ornamental plants that spread out of gardens.
+          </p>
+          <p>
+            Native species evolved together over thousands of years, and each helps keep the others in check. A newcomer
+            arrives without its natural predators, diseases, and competitors, so it can multiply fast, and native animals
+            often do not recognize it as a threat.
+          </p>
+        </div>
+
+        <h3 class="learn-subhead">How invasive species cause harm</h3>
+        <!-- Cards are rendered by js/main.js from data/invasive-species.json -->
+        <div data-harm-types>
+          <p class="muted">Loading…</p>
+        </div>
+
+        <div class="callout">
+          <h3>Why finding them early matters</h3>
+          <p>
+            Removing one animal or a few plants is far easier and cheaper than controlling a population that has already
+            spread. That is why scientists rely on early detection and rapid response: when people spot something unusual
+            and report it quickly, managers can act before it takes hold.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── LEARN: WHAT YOU CAN DO ─────────────────────────────── -->
+    <section class="learn" aria-labelledby="help-title">
+      <div class="learn-inner">
+        <h2 id="help-title">What you can do</h2>
+        <ul class="action-list">
+          <li>
+            <h3>Never release a pet</h3>
+            <p>Releasing an unwanted pet or dumping an aquarium is how many invaders start. Florida's Exotic Pet Amnesty Program lets you give up a pet with no penalty.</p>
+          </li>
+          <li>
+            <h3>Choose native plants</h3>
+            <p>Plant species that belong here, and remove known invasive plants from your yard so their seeds and berries do not spread into natural areas.</p>
+          </li>
+          <li>
+            <h3>Protect your pets</h3>
+            <p>Bring pet food indoors at night and keep pets away from unfamiliar toads, frogs, and reptiles.</p>
+          </li>
+          <li>
+            <h3>Clean your gear</h3>
+            <p>Seeds and spores can hitchhike on boots, boats, and trailers. Clean them before you leave a natural area.</p>
+          </li>
+          <li>
+            <h3>Learn and report</h3>
+            <p>Use the <a href="identify.html">Identify page</a> to check what you have found, then report it with a photo and a location.</p>
+          </li>
+        </ul>
+        <!-- Filled by js/main.js from data/invasive-species.json -->
+        <p class="callout callout--report" data-reporting></p>
+      </div>
+    </section>
+
+    <!-- ── STATS BANNER (numbers filled from the data layer) ──── -->
+    <section class="stats-banner" aria-label="Everglades facts">
+      <div class="stat">
+        <span class="stat-num" data-stat="species">—</span>
+        <span class="stat-label">Species in the Everglades</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-stat="pythons">—</span>
+        <span class="stat-label">Pythons removed so far</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-stat="panthers">—</span>
+        <span class="stat-label">Florida Panthers remaining</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-stat="acres" data-format="compact">—</span>
+        <span class="stat-label">Acres of national park</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-logo">GladeGuide</div>
+    <p>Built for the 2026 Congressional App Challenge · South Florida's Everglades</p>
+    <p class="footer-note">Made with purpose by a Weston student</p>
+  </footer>
+
+  <noscript>
+    <p class="notice notice--warn noscript-note">GladeGuide needs JavaScript to load species data.</p>
+  </noscript>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
