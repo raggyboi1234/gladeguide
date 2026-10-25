@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "description": "Native Everglades species that are federally listed as endangered or threatened.",
+    "status_authority": "U.S. Endangered Species Act",
+    "home_stats": {
+      "species": {
+        "value": 800,
+        "qualifier": "at_least",
+        "needs_verification": true,
+        "note": "Carried over from the original homepage copy. Confirm against an NPS or USGS source before publishing."
+      },
+      "acres": {
+        "value": 1508938,
+        "qualifier": "exact",
+        "needs_verification": true,
+        "note": "Everglades National Park acreage; confirm against the current NPS figure."
+      },
+      "panthers": {
+        "value": 120,
+        "qualifier": "about",
+        "needs_verification": true,
+        "note": "Carried over from the original homepage copy. Published estimates vary by year and method; confirm with FWC."
+      }
+    }
+  },
+  "species": [
+    {
+      "id": "florida-panther",
+      "common_name": "Florida Panther",
+      "scientific_name": "Puma concolor coryi",
+      "kingdom": "animal",
+      "group": "Mammal",
+      "native": true,
+      "status": "Endangered",
+      "summary": "Florida's last wild big cat and one of the most endangered mammals in the country.",
+      "description": "The Florida panther is a subspecies of puma that once ranged across the Southeast. Today the only known breeding population lives in southern Florida, in and around Big Cypress National Preserve and the Everglades.",
+      "habitat": "Hardwood hammocks, pine flatwoods, cypress swamps, and prairies.",
+      "threats": [
+        "Habitat loss and fragmentation from development",
+        "Vehicle collisions on roads that cross panther territory",
+        "Territorial fights between males in a small, crowded range",
+        "Low genetic diversity in a small population"
+      ],
+      "identification_tips": [
+        "Adults are a uniform tawny tan with a paler belly and no spots",
+        "Long tail with a dark tip",
+        "Kittens have dark spots and ringed tails that fade as they grow"
+      ],
+      "how_to_help": [
+        "Slow down in wildlife speed zones on roads through panther habitat",
+        "Never feed wildlife, so animals don't lose their wariness of people",
+        "Support protection of large, connected natural areas",
+        "Report injured or dead panthers to Florida Fish and Wildlife (FWC)"
+      ],
+      "keywords": [
+        "panther",
+        "cougar",
+        "puma",
+        "big cat",
+        "cat",
+        "mammal"
+      ]
+    },
+    {
+      "id": "west-indian-manatee",
+      "common_name": "West Indian Manatee",
+      "scientific_name": "Trichechus manatus",
+      "kingdom": "animal",
+      "group": "Mammal",
+      "native": true,
+      "status": "Threatened",
+      "summary": "A gentle, slow-moving sea cow that grazes on seagrass in warm shallow water.",
+      "description": "Florida manatees are large, plant-eating marine mammals that use coastal waters, rivers, and canals. In cold weather they gather at warm springs and other warm-water refuges.",
+      "habitat": "Warm, shallow coastal waters, estuaries, rivers, and canals with seagrass or other aquatic plants.",
+      "threats": [
+        "Collisions with boats",
+        "Loss of seagrass from poor water quality",
+        "Cold stress in winter",
+        "Harmful algal blooms such as red tide"
+      ],
+      "identification_tips": [
+        "Gray-brown, rounded body about 9 to 10 feet long",
+        "Flat, paddle-shaped tail",
+        "Whiskered, blunt snout; surfaces to breathe"
+      ],
+      "how_to_help": [
+        "Follow manatee zones and slow-speed signs when boating",
+        "Wear polarized sunglasses to spot manatees below the surface",
+        "Observe from a distance and never feed or give water to manatees",
+        "Pick up fishing line and trash; report injured or dead manatees to FWC"
+      ],
+      "keywords": [
+        "manatee",
+        "sea cow",
+        "mammal",
+        "marine"
+      ]
+    },
+    {
+      "id": "wood-stork",
+      "common_name": "Wood Stork",
+      "scientific_name": "Mycteria americana",
+      "kingdom": "animal",
+      "group": "Bird",
+      "native": true,
+      "status": "Threatened",
+      "summary": "A tall wading bird that feeds by feel in shrinking dry-season pools.",
+      "description": "The wood stork is Florida's only native stork. It nests in colonies and depends on wetlands that concentrate fish as water levels fall in the dry season.",
+      "habitat": "Freshwater and brackish wetlands, cypress swamps, and mangroves.",
+      "threats": [
+        "Loss of wetland feeding areas",
+        "Changes in water flow that disrupt the timing of prey concentration",
+        "Disturbance of nesting colonies"
+      ],
+      "identification_tips": [
+        "Large white wading bird with black flight feathers",
+        "Bald, dark gray head and neck",
+        "Long, thick bill that curves slightly downward"
+      ],
+      "how_to_help": [
+        "Keep your distance from nesting colonies and feeding flocks",
+        "Support restoration of natural water flow in the Everglades",
+        "Protect wetlands on and near your property"
+      ],
+      "keywords": [
+        "stork",
+        "wading bird",
+        "bird",
+        "wood stork"
+      ]
+    },
+    {
+      "id": "everglade-snail-kite",
+      "common_name": "Everglade Snail Kite",
+      "scientific_name": "Rostrhamus sociabilis plumbeus",
+      "kingdom": "animal",
+      "group": "Bird",
+      "native": true,
+      "status": "Endangered",
+      "summary": "A slender hawk with a hooked bill built for eating apple snails.",
+      "description": "The Everglade snail kite hunts almost entirely for apple snails in shallow freshwater marshes. When water levels or vegetation change and snails decline, the kites have little else to eat.",
+      "habitat": "Shallow freshwater marshes and lake edges with open water and emergent plants.",
+      "threats": [
+        "Loss and degradation of freshwater wetlands",
+        "Water-level changes that reduce apple snail numbers",
+        "Dense invasive vegetation that makes marshes harder to hunt in"
+      ],
+      "identification_tips": [
+        "Slim hawk with a sharply hooked bill",
+        "Males are slate gray with red-orange legs; females and young are brown and streaked",
+        "White patch at the base of the tail in flight"
+      ],
+      "how_to_help": [
+        "Support Everglades restoration that keeps marsh water levels healthy",
+        "Watch from a distance and avoid flushing perched birds",
+        "Report banded or injured kites to FWC"
+      ],
+      "keywords": [
+        "kite",
+        "snail kite",
+        "hawk",
+        "raptor",
+        "bird",
+        "apple snail"
+      ]
+    },
+    {
+      "id": "american-crocodile",
+      "common_name": "American Crocodile",
+      "scientific_name": "Crocodylus acutus",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": true,
+      "status": "Threatened",
+      "summary": "A shy, gray-green crocodilian of coastal mangroves and brackish water.",
+      "description": "The Everglades is the only place in the United States where alligators and crocodiles live side by side. American crocodiles are much shyer than alligators and prefer salty or brackish coastal water.",
+      "habitat": "Mangrove swamps, coastal creeks, and brackish bays in extreme southern Florida.",
+      "threats": [
+        "Loss of coastal nesting habitat to development",
+        "Vehicle collisions",
+        "Nest predation and changing salinity that affect hatchling survival"
+      ],
+      "identification_tips": [
+        "Narrow, tapered, V-shaped snout (alligators have a broad U shape)",
+        "Gray to olive-gray, lighter than most alligators",
+        "Lower teeth stay visible when the mouth is closed"
+      ],
+      "how_to_help": [
+        "Give crocodiles space and never feed them",
+        "Drive slowly near canals and coastal roads",
+        "Report injured crocodiles or nuisance concerns to FWC"
+      ],
+      "keywords": [
+        "crocodile",
+        "croc",
+        "reptile",
+        "alligator"
+      ]
+    },
+    {
+      "id": "cape-sable-seaside-sparrow",
+      "common_name": "Cape Sable Seaside Sparrow",
+      "scientific_name": "Ammospiza maritima mirabilis",
+      "kingdom": "animal",
+      "group": "Bird",
+      "native": true,
+      "status": "Endangered",
+      "summary": "A small ground-nesting songbird found only in the southern Everglades.",
+      "description": "This sparrow lives in marl prairies, where it nests low in the grass. Flooding during nesting season and prairie fires can wipe out a year's chicks.",
+      "habitat": "Marl prairies of the southern Everglades.",
+      "threats": [
+        "Water levels that flood nests during the breeding season",
+        "Prairie fires during nesting",
+        "Hurricanes and sea-level rise"
+      ],
+      "identification_tips": [
+        "Small, streaked, olive-gray sparrow with a yellow spot in front of the eye",
+        "Lives on the ground in prairie grass and rarely flies far",
+        "Confirming it is difficult and is best left to trained surveyors"
+      ],
+      "how_to_help": [
+        "Support Everglades water management that protects nesting areas",
+        "Stay on marked trails in prairie habitat",
+        "Share bird sightings through eBird so scientists can see them"
+      ],
+      "keywords": [
+        "sparrow",
+        "seaside sparrow",
+        "songbird",
+        "bird",
+        "cape sable"
+      ]
+    },
+    {
+      "id": "florida-bonneted-bat",
+      "common_name": "Florida Bonneted Bat",
+      "scientific_name": "Eumops floridanus",
+      "kingdom": "animal",
+      "group": "Mammal",
+      "native": true,
+      "status": "Endangered",
+      "summary": "Florida's largest bat, with big ears that sweep forward like a bonnet.",
+      "description": "The Florida bonneted bat roosts in tree cavities, rock crevices, and sometimes in buildings and bat houses. It has one of the smallest ranges of any bat in the country, confined to southern Florida.",
+      "habitat": "Forests, wetlands, and suburban areas in southern Florida with old trees or other roosts.",
+      "threats": [
+        "Loss of roost trees and natural habitat to development",
+        "Hurricane damage to roost sites",
+        "A very small population that is hard to study"
+      ],
+      "identification_tips": [
+        "Wingspan of about 20 inches",
+        "Broad ears joined at the base that project over the forehead",
+        "Some of its calls are low enough for people to hear"
+      ],
+      "how_to_help": [
+        "Keep mature trees and dead snags with cavities when it is safe",
+        "Do not disturb roosts; use a licensed wildlife professional for bats in buildings",
+        "Avoid removing bats from a building during maternity season (mid-April to mid-August)"
+      ],
+      "keywords": [
+        "bat",
+        "bonneted bat",
+        "mammal",
+        "night",
+        "flying"
+      ]
+    },
+    {
+      "id": "eastern-indigo-snake",
+      "common_name": "Eastern Indigo Snake",
+      "scientific_name": "Drymarchon couperi",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": true,
+      "status": "Threatened",
+      "summary": "The longest native snake in the United States, harmless to people.",
+      "description": "The eastern indigo snake is a glossy, non-venomous snake that eats a wide range of prey, including other snakes. It is protected, and killing or harassing one is illegal.",
+      "habitat": "Pine flatwoods, hardwood hammocks, and other uplands; often shelters in burrows.",
+      "threats": [
+        "Habitat loss and fragmentation",
+        "Road mortality",
+        "Loss of the burrows it shelters in"
+      ],
+      "identification_tips": [
+        "Uniformly glossy blue-black scales",
+        "Chin and throat are often reddish or orange",
+        "Can reach around 8 feet long"
+      ],
+      "how_to_help": [
+        "Never kill, capture, or harass an indigo snake",
+        "Protect gopher tortoise burrows and other shelter on your property",
+        "Report sightings to FWC so biologists can track the population"
+      ],
+      "keywords": [
+        "indigo",
+        "snake",
+        "reptile",
+        "black snake"
+      ]
+    }
+  ]
+}
