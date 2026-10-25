@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "description": "Non-native species that threaten the Everglades and South Florida.",
+    "reporting": {
+      "hotline_label": "888-IVE-GOT1",
+      "hotline_number": "888-483-4681",
+      "app_name": "IveGot1",
+      "note": "Florida's invasive species reporting hotline and app."
+    },
+    "home_stats": {
+      "pythons": {
+        "value": 23000,
+        "qualifier": "at_least",
+        "needs_verification": true,
+        "note": "Carried over from the original homepage copy. Confirm against current FWC or SFWMD python program totals before publishing."
+      }
+    },
+    "harm_types": [
+      {
+        "id": "predation",
+        "title": "They eat native wildlife",
+        "description": "Predators with no natural enemies here can wipe out prey that never evolved defenses against them, including eggs, young animals, and whole populations."
+      },
+      {
+        "id": "competition",
+        "title": "They crowd out native species",
+        "description": "Invaders compete with native plants and animals for food, nesting space, and sunlight, and they often win because nothing here keeps them in check."
+      },
+      {
+        "id": "habitat",
+        "title": "They change the habitat",
+        "description": "Dense thickets and mats replace open marsh and forest, changing what lives there. Native animals that depend on the original habitat lose food and shelter."
+      },
+      {
+        "id": "toxins",
+        "title": "They poison or injure",
+        "description": "Some invaders carry toxins, venom, or irritating sap that can harm pets, wildlife, and people who come into contact with them."
+      },
+      {
+        "id": "fire",
+        "title": "They change how fire behaves",
+        "description": "Many Everglades habitats burn naturally. Some invasive plants burn hotter, climb into treetops, or spread after fire, which turns a normal burn into a damaging one."
+      },
+      {
+        "id": "property",
+        "title": "They damage property",
+        "description": "Burrowing animals undermine seawalls and canal banks, and small animals that hide in electrical equipment can cause outages and costly repairs."
+      }
+    ]
+  },
+  "species": [
+    {
+      "id": "burmese-python",
+      "common_name": "Burmese Python",
+      "scientific_name": "Python bivittatus",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": false,
+      "origin": "Southeast Asia",
+      "threat_level": "Severe",
+      "summary": "A giant constrictor that has devastated native mammal populations in the Everglades.",
+      "description": "Burmese pythons became established in the Everglades after escaping or being released from the pet trade. They are top predators with few natural enemies here and can grow well over 15 feet long.",
+      "impact": [
+        "Research has documented severe declines in raccoons, opossums, bobcats, and marsh rabbits in areas with pythons",
+        "Preys on wading birds and other native wildlife",
+        "Competes with native predators such as alligators and native snakes"
+      ],
+      "harm_types": [
+        "predation",
+        "competition"
+      ],
+      "identification_tips": [
+        "Large snake with irregular dark brown blotches on a tan background",
+        "Blotches are outlined in a lighter color, like puzzle pieces",
+        "Dark arrowhead-shaped mark on top of the head"
+      ],
+      "native_lookalikes": [
+        "Native rat snakes and watersnakes are far smaller and more slender"
+      ],
+      "what_to_do": [
+        "Do not approach or handle it",
+        "Take a photo from a safe distance and note the location",
+        "Report it through the IveGot1 app or the hotline",
+        "Never release a pet; use FWC's Exotic Pet Amnesty Program instead"
+      ],
+      "keywords": [
+        "python",
+        "burmese",
+        "snake",
+        "constrictor"
+      ]
+    },
+    {
+      "id": "green-iguana",
+      "common_name": "Green Iguana",
+      "scientific_name": "Iguana iguana",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": false,
+      "origin": "Central and South America",
+      "threat_level": "Moderate",
+      "summary": "A large lizard that damages seawalls and landscaping and eats native plants.",
+      "description": "Green iguanas are common in canals and yards across South Florida. Cold snaps can stun them so they fall from trees, but populations quickly rebound.",
+      "impact": [
+        "Burrows undermine seawalls, canal banks, and sidewalks",
+        "Feeds on native plants, including some that rare butterflies depend on",
+        "Droppings can foul docks, pools, and water"
+      ],
+      "harm_types": [
+        "property",
+        "habitat"
+      ],
+      "identification_tips": [
+        "Green to gray-brown with a spiny crest down the back",
+        "Large, round scale below the ear",
+        "Banded tail; adults can reach about 5 feet"
+      ],
+      "native_lookalikes": [
+        "The native green anole is only a few inches long"
+      ],
+      "what_to_do": [
+        "Do not feed iguanas",
+        "Ask a licensed wildlife trapper for help with nuisance animals",
+        "Report iguanas in protected natural areas",
+        "Never release a pet iguana"
+      ],
+      "keywords": [
+        "iguana",
+        "lizard",
+        "reptile"
+      ]
+    },
+    {
+      "id": "cuban-tree-frog",
+      "common_name": "Cuban Tree Frog",
+      "scientific_name": "Osteopilus septentrionalis",
+      "kingdom": "animal",
+      "group": "Amphibian",
+      "native": false,
+      "origin": "Cuba, the Bahamas, and the Cayman Islands",
+      "threat_level": "Moderate",
+      "summary": "A big, hungry tree frog that eats native frogs.",
+      "description": "Cuban tree frogs are common around South Florida homes, where they hide in pipes, mailboxes, and light fixtures. They are larger than any native tree frog in Florida.",
+      "impact": [
+        "Eats native tree frogs and their tadpoles",
+        "Skin secretions can irritate eyes and noses",
+        "Can short out electrical equipment"
+      ],
+      "harm_types": [
+        "predation",
+        "toxins",
+        "property"
+      ],
+      "identification_tips": [
+        "Up to about 5 inches long, much bigger than native tree frogs",
+        "Warty-looking skin and very large toe pads",
+        "Color varies from white to green to gray or brown"
+      ],
+      "native_lookalikes": [
+        "Green treefrog",
+        "Squirrel treefrog"
+      ],
+      "what_to_do": [
+        "Wear gloves and wash your hands after handling any frog",
+        "Do not relocate non-native frogs to another area",
+        "Ask UF/IFAS Extension about humane removal in your yard"
+      ],
+      "keywords": [
+        "frog",
+        "tree frog",
+        "treefrog",
+        "amphibian"
+      ]
+    },
+    {
+      "id": "argentine-tegu",
+      "common_name": "Argentine Black and White Tegu",
+      "scientific_name": "Salvator merianae",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": false,
+      "origin": "South America",
+      "threat_level": "High",
+      "summary": "A big omnivorous lizard that raids the nests of native wildlife.",
+      "description": "Tegus have established breeding populations in parts of South Florida, including Miami-Dade County. They eat almost anything, including eggs, and dig burrows to shelter in.",
+      "impact": [
+        "Eats eggs of ground-nesting birds, crocodilians, and turtles",
+        "Preys on small native animals",
+        "Populations can grow quickly once established"
+      ],
+      "harm_types": [
+        "predation"
+      ],
+      "identification_tips": [
+        "Adults reach 3 to 4 feet with black and white bands",
+        "Beaded-looking scales",
+        "Young tegus can have bright green heads and backs"
+      ],
+      "native_lookalikes": [
+        "Native racerunners are small, slender, and striped"
+      ],
+      "what_to_do": [
+        "Do not handle it; tegus can bite hard",
+        "Take a photo and report it through IveGot1",
+        "Never release a pet tegu"
+      ],
+      "keywords": [
+        "tegu",
+        "lizard",
+        "reptile",
+        "argentine"
+      ]
+    },
+    {
+      "id": "cane-toad",
+      "common_name": "Cane Toad",
+      "scientific_name": "Rhinella marina",
+      "kingdom": "animal",
+      "group": "Amphibian",
+      "native": false,
+      "origin": "Central and South America",
+      "threat_level": "High",
+      "summary": "A huge toad whose toxin can seriously sicken or kill dogs and cats.",
+      "description": "Cane toads are found in South Florida neighborhoods, especially near lights that attract insects and around outdoor pet food. They produce a milky toxin from glands behind the eyes.",
+      "impact": [
+        "Toxin can poison dogs and cats that mouth or lick them",
+        "Competes with native amphibians for food",
+        "Eats native insects and small animals"
+      ],
+      "harm_types": [
+        "toxins",
+        "competition"
+      ],
+      "identification_tips": [
+        "Large, up to 6 inches or more",
+        "Bony ridges above the eyes running down the snout",
+        "Large, triangular glands behind each eye"
+      ],
+      "native_lookalikes": [
+        "Southern toad (smaller, with two bony knobs between the eyes)",
+        "Oak toad (very small)"
+      ],
+      "what_to_do": [
+        "Keep pets away and bring pet food inside at night",
+        "If a pet mouths a toad, rinse its mouth with water and call a vet or animal poison control right away",
+        "Wear gloves if you handle one and wash your hands"
+      ],
+      "keywords": [
+        "toad",
+        "cane toad",
+        "amphibian",
+        "poison",
+        "pets",
+        "dog"
+      ]
+    },
+    {
+      "id": "red-lionfish",
+      "common_name": "Red Lionfish",
+      "scientific_name": "Pterois volitans / Pterois miles",
+      "kingdom": "animal",
+      "group": "Fish",
+      "native": false,
+      "origin": "Indo-Pacific",
+      "threat_level": "Severe",
+      "summary": "A venomous reef fish that eats native young fish faster than they can recover.",
+      "description": "Lionfish are established across Florida's coastal waters, including reefs off South Florida. They reproduce year-round and have few natural predators here.",
+      "impact": [
+        "Eats large numbers of young native reef fish",
+        "Competes with native predators such as snappers and groupers",
+        "Spines can deliver a painful sting"
+      ],
+      "harm_types": [
+        "predation",
+        "competition",
+        "toxins"
+      ],
+      "identification_tips": [
+        "Red-brown and white stripes",
+        "Long, fan-like fins",
+        "Venomous spines along the back"
+      ],
+      "native_lookalikes": [
+        "Native scorpionfishes have shorter fins and are less showy"
+      ],
+      "what_to_do": [
+        "Do not touch it; the spines are venomous",
+        "If stung, soak the area in hot (not scalding) water and get medical care",
+        "Divers can report sightings through the Reef Environmental Education Foundation (REEF)"
+      ],
+      "keywords": [
+        "lionfish",
+        "fish",
+        "reef",
+        "marine",
+        "venomous"
+      ]
+    },
+    {
+      "id": "brazilian-pepper",
+      "common_name": "Brazilian Pepper",
+      "scientific_name": "Schinus terebinthifolia",
+      "kingdom": "plant",
+      "group": "Tree or shrub",
+      "native": false,
+      "origin": "Brazil, Paraguay, and Argentina",
+      "threat_level": "Severe",
+      "summary": "A fast-spreading shrub that forms dense thickets and shades out native plants.",
+      "description": "Brazilian pepper was brought to Florida as an ornamental and now grows across disturbed land, canal banks, and natural areas. Birds spread its berries widely.",
+      "impact": [
+        "Forms dense thickets that crowd out native plants",
+        "Changes habitat for native wildlife",
+        "Sap can cause skin reactions in sensitive people"
+      ],
+      "harm_types": [
+        "habitat",
+        "competition",
+        "toxins"
+      ],
+      "identification_tips": [
+        "Shiny compound leaves with several leaflets",
+        "Bright red berries in clusters in fall and winter",
+        "Sometimes sold as \"Florida holly\""
+      ],
+      "native_lookalikes": [
+        "Native winged sumac"
+      ],
+      "what_to_do": [
+        "Do not plant it",
+        "Wear gloves and long sleeves when removing seedlings",
+        "Put berries in the trash, not the compost",
+        "Hire a licensed professional for large trees"
+      ],
+      "keywords": [
+        "pepper",
+        "brazilian pepper",
+        "schinus",
+        "plant",
+        "tree",
+        "shrub",
+        "florida holly"
+      ]
+    },
+    {
+      "id": "melaleuca",
+      "common_name": "Melaleuca",
+      "scientific_name": "Melaleuca quinquenervia",
+      "kingdom": "plant",
+      "group": "Tree",
+      "native": false,
+      "origin": "Australia, Papua New Guinea, and New Caledonia",
+      "threat_level": "Severe",
+      "summary": "An Australian tree that replaced open sawgrass marsh with dense forest.",
+      "description": "Melaleuca was planted in South Florida in the early 1900s in hopes of drying wetlands. It spread widely through the Everglades, though biological control insects have helped slow it.",
+      "impact": [
+        "Forms dense stands that displace sawgrass marsh and wet prairie",
+        "Releases large amounts of seed after fire or damage",
+        "Reduces habitat for native wildlife"
+      ],
+      "harm_types": [
+        "habitat",
+        "competition",
+        "fire"
+      ],
+      "identification_tips": [
+        "Thick, papery white bark that peels off in layers",
+        "Narrow, leathery, pointed leaves that smell spicy when crushed",
+        "Bottlebrush-like white flower spikes"
+      ],
+      "native_lookalikes": [
+        "Ornamental bottlebrush (Callistemon) is a related garden plant"
+      ],
+      "what_to_do": [
+        "Do not plant it",
+        "Report dense stands in natural areas to the land manager",
+        "Use licensed professionals to remove trees safely"
+      ],
+      "keywords": [
+        "melaleuca",
+        "paperbark",
+        "tree",
+        "plant",
+        "australian"
+      ]
+    },
+    {
+      "id": "old-world-climbing-fern",
+      "common_name": "Old World Climbing Fern",
+      "scientific_name": "Lygodium microphyllum",
+      "kingdom": "plant",
+      "group": "Fern",
+      "native": false,
+      "origin": "Africa, Asia, and Australia",
+      "threat_level": "Severe",
+      "summary": "A climbing fern that smothers tree islands and carries fire into the treetops.",
+      "description": "Old World climbing fern grows into dense mats that climb into shrubs and trees. It is one of the most damaging invaders of Everglades tree islands and other wetland forests.",
+      "impact": [
+        "Smothers native plants under thick mats",
+        "Acts as a ladder that carries fire into tree canopies",
+        "Spreads by tiny wind-blown spores"
+      ],
+      "harm_types": [
+        "habitat",
+        "competition",
+        "fire"
+      ],
+      "identification_tips": [
+        "Wiry, twining stems that climb up other plants",
+        "Delicate, bright-green, finely divided leaflets",
+        "Often found in dense tangles on trees and shrubs"
+      ],
+      "native_lookalikes": [
+        "Native leather fern grows upright and does not climb"
+      ],
+      "what_to_do": [
+        "Do not move or dump yard waste containing fern into natural areas",
+        "Report infestations in natural areas to the land manager",
+        "Clean boots and gear after visiting infested areas"
+      ],
+      "keywords": [
+        "fern",
+        "climbing fern",
+        "lygodium",
+        "plant",
+        "vine"
+      ]
+    },    {
+      "id": "nile-monitor",
+      "common_name": "Nile Monitor",
+      "scientific_name": "Varanus niloticus",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": false,
+      "origin": "Sub-Saharan Africa",
+      "threat_level": "High",
+      "summary": "A large African lizard that raids the nests of protected native animals.",
+      "description": "Nile monitors are large, semi-aquatic lizards that reached Florida through the pet trade, as escaped or released pets. Breeding populations now live in parts of Palm Beach and Lee counties. Florida added the species to its Prohibited species list in 2021, so it is illegal to buy or keep one as a pet.",
+      "impact": [
+        "Eats almost anything it can overpower, including fish, birds, eggs, and small animals",
+        "Raids nests of protected animals such as gopher tortoises, burrowing owls, and the American crocodile",
+        "Spreads along canals and waterways, which can carry it into new areas"
+      ],
+      "harm_types": [
+        "predation"
+      ],
+      "identification_tips": [
+        "Large lizard that commonly reaches about 5 feet and can grow longer than 6 feet",
+        "Olive, brown, or gray body with yellow-green bands or spots, and a banded tail",
+        "Long neck, strong claws, and a forked tongue that flicks in and out",
+        "Often seen near canals and the edges of water"
+      ],
+      "native_lookalikes": [
+        "Florida's native lizards, such as anoles and skinks, are far smaller"
+      ],
+      "what_to_do": [
+        "Do not approach or try to capture it; it can be very defensive when cornered",
+        "Take a photo from a safe distance and note the location",
+        "Report it through the IveGot1 app or the hotline",
+        "Never release a pet; use FWC's Exotic Pet Amnesty Program instead"
+      ],
+      "keywords": [
+        "monitor",
+        "nile monitor",
+        "monitor lizard",
+        "lizard",
+        "varanus",
+        "reptile"
+      ]
+    },
+        {
+      "id": "nile-monitor",
+      "common_name": "Nile Monitor",
+      "scientific_name": "Varanus niloticus",
+      "kingdom": "animal",
+      "group": "Reptile",
+      "native": false,
+      "origin": "Sub-Saharan Africa",
+      "threat_level": "High",
+      "summary": "A large African lizard that raids the nests of protected native animals.",
+      "description": "Nile monitors are large, semi-aquatic lizards that reached Florida through the pet trade, as escaped or released pets. Breeding populations now live in parts of Palm Beach and Lee counties. Florida added the species to its Prohibited species list in 2021, so it is illegal to buy or keep one as a pet.",
+      "impact": [
+        "Eats almost anything it can overpower, including fish, birds, eggs, and small animals",
+        "Raids nests of protected animals such as gopher tortoises, burrowing owls, and the American crocodile",
+        "Spreads along canals and waterways, which can carry it into new areas"
+      ],
+      "harm_types": [
+        "predation"
+      ],
+      "identification_tips": [
+        "Large lizard that commonly reaches about 5 feet and can grow longer than 6 feet",
+        "Olive, brown, or gray body with yellow-green bands or spots, and a banded tail",
+        "Long neck, strong claws, and a forked tongue that flicks in and out",
+        "Often seen near canals and the edges of water"
+      ],
+      "native_lookalikes": [
+        "Florida's native lizards, such as anoles and skinks, are far smaller"
+      ],
+      "what_to_do": [
+        "Do not approach or try to capture it; it can be very defensive when cornered",
+        "Take a photo from a safe distance and note the location",
+        "Report it through the IveGot1 app or the hotline",
+        "Never release a pet; use FWC's Exotic Pet Amnesty Program instead"
+      ],
+      "keywords": [
+        "monitor",
+        "nile monitor",
+        "monitor lizard",
+        "lizard",
+        "varanus",
+        "reptile"
+      ]
+    }
+  ]
+}
