@@ -27,7 +27,7 @@ export const CONFIG = Object.freeze({
   }),
 
   AI: Object.freeze({
-    proxyUrl: '',
+    proxyUrl: 'https://gladeguide-proxy.raghulpillai365.workers.dev',
     identifyPath: '/identify',
     chatPath: '/chat',
     timeoutMs: 30000,
